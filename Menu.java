@@ -1,3 +1,5 @@
+AAAAAA SUSAH GAMAU AH NGIDE NGIDE LAGI
+
 import java.util.Scanner;
 
 public class Menu {
@@ -46,6 +48,7 @@ public class Menu {
         }
     }
 }
+<<<<<<< HEAD
 
 public class Mahasiswa {
     String nim;
@@ -81,3 +84,5 @@ public class Mahasiswa {
         System.out.println("IPK     : " + ipk);
     }
 }
+=======
+>>>>>>> 55de73d64a0cd45a5337d3d53636fa65f5d4b7cc
