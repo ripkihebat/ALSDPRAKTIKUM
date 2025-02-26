@@ -42,15 +42,15 @@ public class Dosen18 {
     public static void cetakInfo(Dosen18[] arrayOfDosen) {
         System.out.println("---------------------------");
         System.out.println("Informasi Dosen");
+        int counter = 1;
         for (Dosen18 dosen : arrayOfDosen) {
-            for (int i = 0; i < arrayOfDosen.length; i++) {
-                System.out.println("Data Dosen ke-"+ (i));
-            }
+            System.out.println("Data Dosen ke-"+ counter);
             System.out.println("Kode            : "+ dosen.kode);
             System.out.println("Nama            : "+ dosen.nama);
             System.out.println("Jenis Kelamin   : " + (dosen.jenisKelamin ? "Perempuan" : "Laki-laki"));
             System.out.println("Usia            : "+ dosen.usia);
             System.out.println("---------------------------");
+            counter++;
         }
     }
 }

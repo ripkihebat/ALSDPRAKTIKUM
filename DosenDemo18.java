@@ -3,11 +3,10 @@ import java.util.Scanner;
 public class DosenDemo18 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-
         System.out.print("Masukkan Jumlah Dosen : ");
         int jumlahDosen = sc.nextInt();
         Dosen18[] arrayOfDosen = new Dosen18[jumlahDosen];
-
+        
         Dosen18.tambahData(arrayOfDosen);
         Dosen18.cetakInfo(arrayOfDosen);
         DataDosen18.dataSemuaDosen(arrayOfDosen);

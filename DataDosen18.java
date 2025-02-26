@@ -2,13 +2,15 @@ public class DataDosen18 {
     public static void dataSemuaDosen(Dosen18[] arrayOfDosen) {
         System.out.println("---------------------------");
         System.out.println("Informasi Dosen");
+        int counter = 1;
         for (Dosen18 dosen : arrayOfDosen) {
-            System.out.println("Data Dosen ke-");
+            System.out.println("Data Dosen ke-"+ counter);
             System.out.println("Kode            : "+ dosen.kode);
             System.out.println("Nama            : "+ dosen.nama);
             System.out.println("Jenis Kelamin   : " + (dosen.jenisKelamin ? "Perempuan" : "Laki-laki"));
             System.out.println("Usia            : "+ dosen.usia);
             System.out.println("---------------------------");
+            counter++;  
         }
     }
     public static void jumlahDosenPerJenisKelamin(Dosen18[] arrayOfDosen) {

@@ -46,3 +46,38 @@ public class Menu {
         }
     }
 }
+
+public class Mahasiswa {
+    String nim;
+    String nama;
+    String kelas;
+    float ipk;
+
+    public Mahasiswa() {
+        this.nim = "Tidak diketahui";
+        this.nama = "Tidak diketahui";
+        this.kelas = "Tidak diketahui";
+        this.ipk = 0.0f;
+    }
+
+    public Mahasiswa(String nim, String nama) {
+        this.nim = nim;
+        this.nama = nama;
+        this.kelas = "Tidak diketahui";
+        this.ipk = 0.0f;
+    }
+    
+    public Mahasiswa(String nim, String nama, String kelas, float ipk) {
+        this.nim = nim;
+        this.nama = nama;
+        this.kelas = kelas;
+        this.ipk = ipk;
+    }
+
+    public void tampilkanInfo() {
+        System.out.println("NIM     : " + nim);
+        System.out.println("Nama    : " + nama);
+        System.out.println("Kelas   : " + kelas);
+        System.out.println("IPK     : " + ipk);
+    }
+}
