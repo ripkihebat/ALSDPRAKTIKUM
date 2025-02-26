@@ -1,3 +1,6 @@
+AAAAAA SUSAH GAMAU AH NGIDE NGIDE LAGI
+
+
 import java.util.Scanner;
 
 public class Menu {
